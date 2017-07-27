@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; }
+
+header {
+  background-image: url(/assets/partypolizei.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 400px;
+  width: 100%; }
+  header h1 {
+    font-family: Impact, sans-serif;
+    font-size: 4rem;
+    padding-top: 1em;
+    max-width: 30ch;
+    padding-left: .5em;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word; }
+    header h1 span {
+      background-color: white;
+      margin: 0.6rem;
+      padding: .3rem 2rem;
+      display: inline-block; }
+  header .donate {
+    margin-left: 3em; }
+
+.donate {
+  border-radius: 7px;
+  font-size: 1rem;
+  display: inline-block;
+  font-family: Impact, sans-serif;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: red; }
+
+.explanation div:first-child {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  max-width: 60ch; }
+  .explanation div:first-child a {
+    text-decoration: underline; }
+  .explanation div:first-child a:visited {
+    color: black; }
+
+.explanation .buttonwrapper {
+  padding-bottom: 2em; }
+
+.explanation .share {
+  margin-top: 1em; }
+
+.heading {
+  font-family: Impact, sans-serif;
+  font-size: 3em; }
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 1rem;
+  justify-content: space-around; }
+
+footer {
+  background-color: black;
+  color: white;
+  font-family: Impact, sans-serif;
+  font-size: 2rem;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  padding: 3em 1rem 1rem 2em; }
+  footer a {
+    color: white; }
+  footer div {
+    grid-column: 1;
+    grid-row: 1; }
+  footer img {
+    grid-row: 2;
+    grid-column: 2;
+    display: block; }
+  footer .imprint {
+    grid-column: 1;
+    grid-row: 3; }
+
+#spenden {
+  width: 100%;
+  text-align: center; }
+
+.thanks {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2em; }
+  .thanks .heading {
+    max-width: 30ch;
+    margin-left: 1em; }
+
+@media (max-width: 425px) {
+  .glass {
+    width: 100%;
+    display: block; }
+  header h1 {
+    font-size: 2rem; }
+  footer {
+    display: block; } }
