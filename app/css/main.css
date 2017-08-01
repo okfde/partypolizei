@@ -6,12 +6,13 @@ header {
   background-image: url(/assets/partypolizei.jpg);
   -webkit-background-size: cover;
   background-size: cover;
-  height: 400px;
+  height: 450px;
   width: 100%; }
   header h1 {
     font-family: Impact, sans-serif;
     font-size: 4rem;
     padding-top: 1em;
+    margin-left: 1em;
     max-width: 30ch;
     padding-left: .5em;
     -ms-word-wrap: break-word;
@@ -21,12 +22,25 @@ header {
       margin: 0.6rem;
       padding: .3rem 2rem;
       display: inline-block; }
-  header .donate {
-    margin-left: 3em; }
+    header h1 .donate {
+      margin-left: 6em; }
+
+.donate-header {
+  border-radius: 7px;
+  font-size: 2rem;
+  display: inline-block;
+  font-family: Impact, sans-serif;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: red;
+  margin-left: 3.2em; }
 
 .donate {
   border-radius: 7px;
-  font-size: 1rem;
+  font-size: 2rem;
   display: inline-block;
   font-family: Impact, sans-serif;
   color: black;
@@ -37,7 +51,8 @@ header {
   background-color: red; }
 
 .explanation div:first-child {
-  margin-top: 6rem;
+  margin-top: 13rem;
+  margin-left: -10em;
   margin-bottom: 2rem;
   max-width: 60ch; }
   .explanation div:first-child a {
@@ -46,14 +61,16 @@ header {
     color: black; }
 
 .explanation .buttonwrapper {
-  padding-bottom: 2em; }
+  padding-bottom: 2em;
+  margin-left: -10em; }
 
 .explanation .share {
-  margin-top: 1em; }
+  margin: 0 0 0 -10em; }
 
 .heading {
   font-family: Impact, sans-serif;
-  font-size: 3em; }
+  font-size: 4em;
+  margin: 1em 0 0 0.7em; }
 
 .content {
   display: flex;
@@ -90,16 +107,39 @@ footer {
 .thanks {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 2em; }
+  margin: 2em 0 3em 0; }
   .thanks .heading {
     max-width: 30ch;
     margin-left: 1em; }
+
+.glass {
+  margin-left: 4em;
+  margin-bottom: 4em; }
+
+.footertext {
+  max-width: 800px; }
 
 @media (max-width: 425px) {
   .glass {
     width: 100%;
     display: block; }
+  .explanation div:first-child {
+    margin-top: 0rem;
+    margin-left: 0em;
+    margin-bottom: 2rem;
+    max-width: 60ch; }
+    .explanation div:first-child a {
+      text-decoration: underline; }
+    .explanation div:first-child a:visited {
+      color: black; }
+  .explanation .buttonwrapper {
+    padding-bottom: 2em;
+    margin-left: -10em; }
+  .explanation .share {
+    margin: 0 0 0 -10em; }
   header h1 {
-    font-size: 2rem; }
+    font-size: 1rem;
+    margin-left: -3em;
+    padding: 0; }
   footer {
     display: block; } }
