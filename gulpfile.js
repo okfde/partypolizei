@@ -14,10 +14,10 @@ gulp.task('sass', function() {
 gulp.task('serve', function() {
     browserSync({
         server: {
-            baseDir: 'app'
+            baseDir: '.'
         }
     });
 
     gulp.watch('sass/*.sass', ['sass']);
-    gulp.watch(['*.html'], {cwd: 'app'}, reload);
+    gulp.watch(['*.html'], reload);
 });

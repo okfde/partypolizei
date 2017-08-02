@@ -6,10 +6,10 @@ header {
   background-image: url(/assets/partypolizei.jpg);
   -webkit-background-size: cover;
   background-size: cover;
-  height: 400px;
+  padding-bottom: 2em;
   width: 100%; }
   header h1 {
-    font-family: Impact, sans-serif;
+    font-family: Impact, "Anton", sans-serif;
     font-size: 4rem;
     padding-top: 1em;
     max-width: 30ch;
@@ -28,7 +28,7 @@ header {
   border-radius: 7px;
   font-size: 1rem;
   display: inline-block;
-  font-family: Impact, sans-serif;
+  font-family: Impact, "Anton", sans-serif;
   color: black;
   padding: 10px 20px;
   border: none;
@@ -52,7 +52,7 @@ header {
   margin-top: 1em; }
 
 .heading {
-  font-family: Impact, sans-serif;
+  font-family: Impact, "Anton", sans-serif;
   font-size: 3em; }
 
 .content {
@@ -65,7 +65,7 @@ header {
 footer {
   background-color: black;
   color: white;
-  font-family: Impact, sans-serif;
+  font-family: Impact, "Anton", sans-serif;
   font-size: 2rem;
   display: grid;
   grid-template-columns: 80% 20%;
