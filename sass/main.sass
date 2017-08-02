@@ -10,41 +10,27 @@ header
   -webkit-background-size: cover
   background-size: cover
 
-  height: 450px
+  height: 400px
   width: 100%
   h1
     font-family: $heading-font
     font-size: 4rem
     padding-top: 1em
-    margin-left: 1em
     max-width: 30ch
     padding-left: .5em
     -ms-word-wrap: break-word
     word-wrap: break-word
     span
-      background-color: white;
+      background-color: white
       margin: 0.6rem
       padding: .3rem 2rem
       display: inline-block
-    .donate
-      margin-left: 6em
-
-.donate-header
-  border-radius: 7px
-  font-size: 2rem
-  display: inline-block
-  font-family: $heading-font
-  color: black
-  padding: 10px 20px
-  border: none
-  text-decoration: none
-  text-transform: uppercase
-  background-color: red
-  margin-left: 3.2em
+  .donate
+    margin-left: 3em
 
 .donate
   border-radius: 7px
-  font-size: 2rem
+  font-size: 1rem
   display: inline-block
   font-family: $heading-font
   color: black
@@ -53,13 +39,11 @@ header
   text-decoration: none
   text-transform: uppercase
   background-color: red
-
 
 
 .explanation
   div:first-child
-    margin-top: 13rem
-    margin-left: -10em
+    margin-top: 6rem
     margin-bottom: 2rem
     max-width: 60ch
     a
@@ -69,16 +53,13 @@ header
 
   .buttonwrapper
     padding-bottom: 2em
-    margin-left: -10em
 
   .share
-    margin: 0 0 0 -10em
-
+    margin-top: 1em
 
 .heading
   font-family: $heading-font
-  font-size: 4em
-  margin: 1em 0 0 0.7em
+  font-size: 3em
 
 .content
   display: flex
@@ -115,58 +96,32 @@ footer
   width: 100%
   text-align: center
 
+.glass
+  .heading
+    margin-left: 50px
+  img
+    width: 100%
+
 .thanks
   display: flex
   flex-wrap: wrap
-  margin: 2em 0 3em 0
+  margin-top: 2em
   .heading
     max-width: 30ch
     margin-left: 1em
 
-
-.glass
-  margin-left: 4em
-  margin-bottom: 4em
-
-
-.footertext
-  max-width: 800px
 
 @media (max-width: 425px)
   .glass
     width: 100%
     display: block
 
-  .explanation
-    div:first-child
-      margin-top: 0rem
-      margin-left: 0em
-      margin-bottom: 2rem
-      max-width: 60ch
-      a
-        text-decoration: underline
-      a:visited
-        color: black
-
-    .buttonwrapper
-      padding-bottom: 2em
-      margin-left: -10em
-
-    .share
-      margin: 0 0 0 -10em
-
   header
     h1
-      font-size: 1rem
-      margin-left: -3em
-      padding: 0
-
-  
-
-
+      font-size: 2rem
 
   footer
     display: block
 
-
-
+  .thanks .heading
+    margin-left: 0
