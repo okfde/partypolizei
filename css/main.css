@@ -3,7 +3,7 @@ body {
   margin: 0; }
 
 header {
-  background-image: url(/assets/partypolizei.jpg);
+  background-image: url(../assets/partypolizei.jpg);
   -webkit-background-size: cover;
   background-size: cover;
   padding-bottom: 2em;
